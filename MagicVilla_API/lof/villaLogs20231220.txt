@@ -1,0 +1,71 @@
+2023-12-20 20:09:52.977 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-12-20 20:09:53.048 +02:00 [DBG] Hosting starting
+2023-12-20 20:09:53.123 +02:00 [INF] Now listening on: https://localhost:7287
+2023-12-20 20:09:53.123 +02:00 [INF] Now listening on: http://localhost:5188
+2023-12-20 20:09:53.123 +02:00 [DBG] Loaded hosting startup assembly MagicVilla_API
+2023-12-20 20:09:53.123 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-12-20 20:09:53.123 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-12-20 20:09:53.123 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-20 20:09:53.123 +02:00 [INF] Hosting environment: Development
+2023-12-20 20:09:53.123 +02:00 [INF] Content root path: Q:\My Projects\Magic Villa Complete\MagicVilla\MagicVilla_API
+2023-12-20 20:09:53.123 +02:00 [DBG] Hosting started
+2023-12-20 20:09:53.341 +02:00 [DBG] Connection id "0HN01GREO7C3N" accepted.
+2023-12-20 20:09:53.341 +02:00 [DBG] Connection id "0HN01GREO7C3O" accepted.
+2023-12-20 20:09:53.342 +02:00 [DBG] Connection id "0HN01GREO7C3O" started.
+2023-12-20 20:09:53.342 +02:00 [DBG] Connection id "0HN01GREO7C3N" started.
+2023-12-20 20:09:53.350 +02:00 [DBG] Connection id "0HN01GREO7C3P" accepted.
+2023-12-20 20:09:53.350 +02:00 [DBG] Connection id "0HN01GREO7C3P" started.
+2023-12-20 20:09:53.380 +02:00 [DBG] Connection 0HN01GREO7C3P established using the following protocol: "Tls13"
+2023-12-20 20:09:53.415 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7287/swagger/index.html - -
+2023-12-20 20:09:53.463 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-12-20 20:09:53.480 +02:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-12-20 20:09:53.480 +02:00 [DBG] Request did not match any endpoints
+2023-12-20 20:09:53.552 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-12-20 20:09:53.566 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-12-20 20:09:53.568 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7287/swagger/index.html - - - 200 - text/html;charset=utf-8 155.2623ms
+2023-12-20 20:09:53.572 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7287/_framework/aspnetcore-browser-refresh.js - -
+2023-12-20 20:09:53.572 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7287/_vs/browserLink - -
+2023-12-20 20:09:53.575 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7287/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 3.0750ms
+2023-12-20 20:09:53.593 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7287/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 20.7462ms
+2023-12-20 20:09:53.709 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7287/swagger/v1/swagger.json - -
+2023-12-20 20:09:53.709 +02:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-12-20 20:09:53.709 +02:00 [DBG] Request did not match any endpoints
+2023-12-20 20:09:53.801 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7287/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 92.0241ms
+2023-12-20 20:09:54.181 +02:00 [DBG] Connection id "0HN01GREO7C3N" reset.
+2023-12-20 20:09:54.181 +02:00 [DBG] Connection id "0HN01GREO7C3O" reset.
+2023-12-20 20:09:54.182 +02:00 [DBG] Failed to authenticate HTTPS connection.
+Microsoft.AspNetCore.Connections.ConnectionResetException: An existing connection was forcibly closed by the remote host.
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   --- End of inner exception stack trace ---
+   at System.IO.Pipelines.Pipe.GetReadResult(ReadResult& result)
+   at System.IO.Pipelines.Pipe.GetReadAsyncResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-12-20 20:09:54.182 +02:00 [DBG] Failed to authenticate HTTPS connection.
+Microsoft.AspNetCore.Connections.ConnectionResetException: An existing connection was forcibly closed by the remote host.
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   --- End of inner exception stack trace ---
+   at System.IO.Pipelines.Pipe.GetReadResult(ReadResult& result)
+   at System.IO.Pipelines.Pipe.GetReadAsyncResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-12-20 20:09:54.290 +02:00 [DBG] Connection id "0HN01GREO7C3N" stopped.
+2023-12-20 20:09:54.290 +02:00 [DBG] Connection id "0HN01GREO7C3O" stopped.
+2023-12-20 20:09:54.291 +02:00 [DBG] Connection id "0HN01GREO7C3N" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-20 20:09:54.291 +02:00 [DBG] Connection id "0HN01GREO7C3O" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-20 20:12:05.216 +02:00 [DBG] Connection id "0HN01GREO7C3P" is closing.
+2023-12-20 20:12:05.219 +02:00 [DBG] Connection id "0HN01GREO7C3P" is closed. The last processed stream ID was 7.
+2023-12-20 20:12:05.220 +02:00 [DBG] Connection id "0HN01GREO7C3P" received FIN.
+2023-12-20 20:12:05.221 +02:00 [DBG] Connection id "0HN01GREO7C3P" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-20 20:12:05.221 +02:00 [DBG] The connection queue processing loop for 0HN01GREO7C3P completed.
+2023-12-20 20:12:05.222 +02:00 [DBG] Connection id "0HN01GREO7C3P" stopped.

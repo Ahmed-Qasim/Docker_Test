@@ -1,0 +1,213 @@
+2023-12-24 18:22:24.416 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-12-24 18:22:24.462 +02:00 [DBG] Hosting starting
+2023-12-24 18:22:24.518 +02:00 [INF] Now listening on: https://localhost:7287
+2023-12-24 18:22:24.518 +02:00 [INF] Now listening on: http://localhost:5188
+2023-12-24 18:22:24.518 +02:00 [DBG] Loaded hosting startup assembly MagicVilla_API
+2023-12-24 18:22:24.518 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-12-24 18:22:24.518 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-12-24 18:22:24.518 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-24 18:22:24.518 +02:00 [INF] Hosting environment: Development
+2023-12-24 18:22:24.518 +02:00 [INF] Content root path: Q:\My Projects\Magic Villa Complete\MagicVilla\MagicVilla_API
+2023-12-24 18:22:24.518 +02:00 [DBG] Hosting started
+2023-12-24 18:22:24.766 +02:00 [DBG] Connection id "0HN04JI1O8DHQ" accepted.
+2023-12-24 18:22:24.766 +02:00 [DBG] Connection id "0HN04JI1O8DHQ" started.
+2023-12-24 18:22:24.777 +02:00 [DBG] Connection id "0HN04JI1O8DHQ" received FIN.
+2023-12-24 18:22:24.777 +02:00 [DBG] Connection id "0HN04JI1O8DHR" received FIN.
+2023-12-24 18:22:24.778 +02:00 [DBG] Connection id "0HN04JI1O8DHR" accepted.
+2023-12-24 18:22:24.778 +02:00 [DBG] Connection id "0HN04JI1O8DHR" started.
+2023-12-24 18:22:24.780 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-12-24 18:22:24.780 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-12-24 18:22:24.782 +02:00 [DBG] Connection id "0HN04JI1O8DHS" accepted.
+2023-12-24 18:22:24.788 +02:00 [DBG] Connection id "0HN04JI1O8DHS" started.
+2023-12-24 18:22:24.790 +02:00 [DBG] Connection id "0HN04JI1O8DHR" stopped.
+2023-12-24 18:22:24.790 +02:00 [DBG] Connection id "0HN04JI1O8DHQ" stopped.
+2023-12-24 18:22:24.793 +02:00 [DBG] Connection id "0HN04JI1O8DHR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-24 18:22:24.793 +02:00 [DBG] Connection id "0HN04JI1O8DHQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-24 18:22:24.806 +02:00 [DBG] Connection 0HN04JI1O8DHS established using the following protocol: "Tls13"
+2023-12-24 18:22:24.833 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7287/swagger/index.html - -
+2023-12-24 18:22:24.875 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-12-24 18:22:24.890 +02:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-12-24 18:22:24.891 +02:00 [DBG] Request did not match any endpoints
+2023-12-24 18:22:24.960 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-12-24 18:22:24.972 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-12-24 18:22:24.973 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7287/swagger/index.html - - - 200 - text/html;charset=utf-8 141.5099ms
+2023-12-24 18:22:24.977 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7287/_framework/aspnetcore-browser-refresh.js - -
+2023-12-24 18:22:24.977 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7287/_vs/browserLink - -
+2023-12-24 18:22:24.980 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7287/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 2.6244ms
+2023-12-24 18:22:24.999 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7287/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 22.1104ms
+2023-12-24 18:22:25.093 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7287/swagger/v1/swagger.json - -
+2023-12-24 18:22:25.093 +02:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-12-24 18:22:25.093 +02:00 [DBG] Request did not match any endpoints
+2023-12-24 18:22:25.195 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7287/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 102.0191ms
+2023-12-24 18:22:27.634 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-12-24 18:22:28.018 +02:00 [DBG] Entity Framework Core 7.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.0' with options: None
+2023-12-24 18:22:28.029 +02:00 [DBG] Creating DbConnection.
+2023-12-24 18:22:28.050 +02:00 [DBG] Created DbConnection. (18ms).
+2023-12-24 18:22:28.052 +02:00 [DBG] Migrating using database 'Villa' on server 'QASIM\SQLEXPRESS01'.
+2023-12-24 18:22:28.055 +02:00 [DBG] Opening connection to database 'Villa' on server 'QASIM\SQLEXPRESS01'.
+2023-12-24 18:22:28.186 +02:00 [DBG] Opened connection to database 'Villa' on server 'QASIM\SQLEXPRESS01'.
+2023-12-24 18:22:28.190 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-12-24 18:22:28.194 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (3ms).
+2023-12-24 18:22:28.195 +02:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (6ms).
+2023-12-24 18:22:28.199 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-12-24 18:22:28.213 +02:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-12-24 18:22:28.214 +02:00 [DBG] Closing connection to database 'Villa' on server 'QASIM\SQLEXPRESS01'.
+2023-12-24 18:22:28.222 +02:00 [DBG] Closed connection to database 'Villa' on server 'QASIM\SQLEXPRESS01' (3ms).
+2023-12-24 18:22:28.224 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-12-24 18:22:28.225 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-12-24 18:22:28.225 +02:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-12-24 18:22:28.225 +02:00 [DBG] Opening connection to database 'Villa' on server 'QASIM\SQLEXPRESS01'.
+2023-12-24 18:22:28.225 +02:00 [DBG] Opened connection to database 'Villa' on server 'QASIM\SQLEXPRESS01'.
+2023-12-24 18:22:28.226 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-12-24 18:22:28.235 +02:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-12-24 18:22:28.235 +02:00 [DBG] Closing connection to database 'Villa' on server 'QASIM\SQLEXPRESS01'.
+2023-12-24 18:22:28.235 +02:00 [DBG] Closed connection to database 'Villa' on server 'QASIM\SQLEXPRESS01' (0ms).
+2023-12-24 18:22:28.236 +02:00 [DBG] Opening connection to database 'Villa' on server 'QASIM\SQLEXPRESS01'.
+2023-12-24 18:22:28.236 +02:00 [DBG] Opened connection to database 'Villa' on server 'QASIM\SQLEXPRESS01'.
+2023-12-24 18:22:28.236 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-12-24 18:22:28.236 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-24 18:22:28.236 +02:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-24 18:22:28.236 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-12-24 18:22:28.237 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-12-24 18:22:28.237 +02:00 [DBG] Closing connection to database 'Villa' on server 'QASIM\SQLEXPRESS01'.
+2023-12-24 18:22:28.237 +02:00 [DBG] Closed connection to database 'Villa' on server 'QASIM\SQLEXPRESS01' (0ms).
+2023-12-24 18:22:28.237 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-12-24 18:22:28.237 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-12-24 18:22:28.237 +02:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-12-24 18:22:28.237 +02:00 [DBG] Opening connection to database 'Villa' on server 'QASIM\SQLEXPRESS01'.
+2023-12-24 18:22:28.237 +02:00 [DBG] Opened connection to database 'Villa' on server 'QASIM\SQLEXPRESS01'.
+2023-12-24 18:22:28.237 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-12-24 18:22:28.237 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-12-24 18:22:28.237 +02:00 [DBG] Closing connection to database 'Villa' on server 'QASIM\SQLEXPRESS01'.
+2023-12-24 18:22:28.238 +02:00 [DBG] Closed connection to database 'Villa' on server 'QASIM\SQLEXPRESS01' (0ms).
+2023-12-24 18:22:28.250 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-12-24 18:22:28.250 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-12-24 18:22:28.251 +02:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-12-24 18:22:28.251 +02:00 [DBG] Opening connection to database 'Villa' on server 'QASIM\SQLEXPRESS01'.
+2023-12-24 18:22:28.251 +02:00 [DBG] Opened connection to database 'Villa' on server 'QASIM\SQLEXPRESS01'.
+2023-12-24 18:22:28.251 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-12-24 18:22:28.253 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-12-24 18:22:28.255 +02:00 [DBG] Closing data reader to 'Villa' on server 'QASIM\SQLEXPRESS01'.
+2023-12-24 18:22:28.256 +02:00 [DBG] A data reader for 'Villa' on server 'QASIM\SQLEXPRESS01' is being disposed after spending 1ms reading results.
+2023-12-24 18:22:28.256 +02:00 [DBG] Closing connection to database 'Villa' on server 'QASIM\SQLEXPRESS01'.
+2023-12-24 18:22:28.256 +02:00 [DBG] Closed connection to database 'Villa' on server 'QASIM\SQLEXPRESS01' (0ms).
+2023-12-24 18:22:28.265 +02:00 [INF] Applying migration '20231224162224_addVillaForeignKey'.
+2023-12-24 18:22:28.305 +02:00 [DBG] Opening connection to database 'Villa' on server 'QASIM\SQLEXPRESS01'.
+2023-12-24 18:22:28.305 +02:00 [DBG] Opened connection to database 'Villa' on server 'QASIM\SQLEXPRESS01'.
+2023-12-24 18:22:28.306 +02:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-12-24 18:22:28.310 +02:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-12-24 18:22:28.310 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-12-24 18:22:28.310 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-24 18:22:28.311 +02:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-24 18:22:28.311 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [VillaNumbers] ADD [VillaID] int NOT NULL DEFAULT 0;
+2023-12-24 18:22:28.317 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [VillaNumbers] ADD [VillaID] int NOT NULL DEFAULT 0;
+2023-12-24 18:22:28.317 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-12-24 18:22:28.317 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-24 18:22:28.317 +02:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-24 18:22:28.317 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [DateCreated] = '2023-12-24T18:22:24.7298564+02:00'
+WHERE [Id] = 1;
+SELECT @@ROWCOUNT;
+2023-12-24 18:22:28.319 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [DateCreated] = '2023-12-24T18:22:24.7298564+02:00'
+WHERE [Id] = 1;
+SELECT @@ROWCOUNT;
+2023-12-24 18:22:28.319 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-12-24 18:22:28.319 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-24 18:22:28.319 +02:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-24 18:22:28.320 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [DateCreated] = '2023-12-24T18:22:24.7298661+02:00'
+WHERE [Id] = 2;
+SELECT @@ROWCOUNT;
+2023-12-24 18:22:28.320 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [DateCreated] = '2023-12-24T18:22:24.7298661+02:00'
+WHERE [Id] = 2;
+SELECT @@ROWCOUNT;
+2023-12-24 18:22:28.320 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-12-24 18:22:28.320 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-24 18:22:28.320 +02:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-24 18:22:28.320 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [DateCreated] = '2023-12-24T18:22:24.7298665+02:00'
+WHERE [Id] = 3;
+SELECT @@ROWCOUNT;
+2023-12-24 18:22:28.320 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [DateCreated] = '2023-12-24T18:22:24.7298665+02:00'
+WHERE [Id] = 3;
+SELECT @@ROWCOUNT;
+2023-12-24 18:22:28.320 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-12-24 18:22:28.320 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-24 18:22:28.320 +02:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-24 18:22:28.320 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [DateCreated] = '2023-12-24T18:22:24.7298668+02:00'
+WHERE [Id] = 4;
+SELECT @@ROWCOUNT;
+2023-12-24 18:22:28.321 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [DateCreated] = '2023-12-24T18:22:24.7298668+02:00'
+WHERE [Id] = 4;
+SELECT @@ROWCOUNT;
+2023-12-24 18:22:28.321 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-12-24 18:22:28.321 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-24 18:22:28.321 +02:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-24 18:22:28.321 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [DateCreated] = '2023-12-24T18:22:24.7298670+02:00'
+WHERE [Id] = 5;
+SELECT @@ROWCOUNT;
+2023-12-24 18:22:28.321 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [DateCreated] = '2023-12-24T18:22:24.7298670+02:00'
+WHERE [Id] = 5;
+SELECT @@ROWCOUNT;
+2023-12-24 18:22:28.321 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-12-24 18:22:28.321 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-24 18:22:28.321 +02:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-24 18:22:28.321 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_VillaNumbers_VillaID] ON [VillaNumbers] ([VillaID]);
+2023-12-24 18:22:28.323 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_VillaNumbers_VillaID] ON [VillaNumbers] ([VillaID]);
+2023-12-24 18:22:28.323 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-12-24 18:22:28.323 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-24 18:22:28.323 +02:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-24 18:22:28.323 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [VillaNumbers] ADD CONSTRAINT [FK_VillaNumbers_Villas_VillaID] FOREIGN KEY ([VillaID]) REFERENCES [Villas] ([Id]) ON DELETE CASCADE;
+2023-12-24 18:22:28.324 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [VillaNumbers] ADD CONSTRAINT [FK_VillaNumbers_Villas_VillaID] FOREIGN KEY ([VillaID]) REFERENCES [Villas] ([Id]) ON DELETE CASCADE;
+2023-12-24 18:22:28.324 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-12-24 18:22:28.324 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-24 18:22:28.324 +02:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-12-24 18:22:28.324 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20231224162224_addVillaForeignKey', N'7.0.0');
+2023-12-24 18:22:28.325 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20231224162224_addVillaForeignKey', N'7.0.0');
+2023-12-24 18:22:28.326 +02:00 [DBG] Committing transaction.
+2023-12-24 18:22:28.328 +02:00 [DBG] Committed transaction.
+2023-12-24 18:22:28.329 +02:00 [DBG] Disposing transaction.
+2023-12-24 18:22:28.329 +02:00 [DBG] Closing connection to database 'Villa' on server 'QASIM\SQLEXPRESS01'.
+2023-12-24 18:22:28.329 +02:00 [DBG] Closed connection to database 'Villa' on server 'QASIM\SQLEXPRESS01' (0ms).
+2023-12-24 18:22:28.330 +02:00 [DBG] 'ApplicationDbContext' disposed.
+2023-12-24 18:22:28.331 +02:00 [DBG] Disposing connection to database 'Villa' on server 'QASIM\SQLEXPRESS01'.
+2023-12-24 18:22:28.331 +02:00 [DBG] Disposed connection to database '' on server '' (0ms).

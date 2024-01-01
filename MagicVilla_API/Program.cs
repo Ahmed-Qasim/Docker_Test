@@ -7,9 +7,15 @@ using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
-    builder.Configuration.GetConnectionString("DefaultSQLConnection")
-    ));
+
+var dbHost = Environment.GetEnvironmentVariable("DB_HOST");
+var dbName = Environment.GetEnvironmentVariable("DemoVillaApi");
+var dbPassword = Environment.GetEnvironmentVariable("DB_SA_PASSWORD");
+var connectionString = $"Data Source={dbHost};Initial Catalog={dbName};User Id=sa;Password={dbPassword};TrustServerCertificate=True;";
+
+builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connectionString)
+
+    );
 // Add services to the container.
 //adding custom logger
 Log.Logger = new LoggerConfiguration().MinimumLevel.Debug().WriteTo.

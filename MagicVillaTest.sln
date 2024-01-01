@@ -5,6 +5,14 @@ VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagicVilla_API", "MagicVilla_API\MagicVilla_API.csproj", "{04E961DD-C0AE-4AAD-90D4-9422180445BA}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{99818BC5-53AA-46F3-AE6F-0B19505B7E19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2CC87D31-7D2C-4939-A3E5-C5ED208D6A08}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,10 @@ Global
 		{04E961DD-C0AE-4AAD-90D4-9422180445BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04E961DD-C0AE-4AAD-90D4-9422180445BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04E961DD-C0AE-4AAD-90D4-9422180445BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99818BC5-53AA-46F3-AE6F-0B19505B7E19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99818BC5-53AA-46F3-AE6F-0B19505B7E19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99818BC5-53AA-46F3-AE6F-0B19505B7E19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99818BC5-53AA-46F3-AE6F-0B19505B7E19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

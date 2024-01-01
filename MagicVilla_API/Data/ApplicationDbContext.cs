@@ -1,11 +1,31 @@
 ﻿using MagicVilla_API.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Storage;
 
 namespace MagicVilla_API.Data
 {
     public class ApplicationDbContext : DbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
+        {
+            try
+            {
+                var dataBaseCreator = Database.GetService<IDatabaseCreator>() as RelationalDatabaseCreator;
+
+                if (dataBaseCreator != null)
+                {
+                    if (!dataBaseCreator.CanConnect()) dataBaseCreator.Create();
+                    if (!dataBaseCreator.HasTables()) dataBaseCreator.CreateTables();
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine(ex.Message);
+            }
+        }
 
         public DbSet<Villa> Villas { get; set; }
         public DbSet<VillaNumber> VillaNumbers { get; set; }

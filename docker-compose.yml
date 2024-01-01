@@ -1,0 +1,30 @@
+version: '3.4'
+networks:
+  demoApi:
+services:
+  demoappdb:
+   container_name: app-db
+   image: mcr.microsoft.com/mssql/server:2019-latest
+   ports:
+     - 8002:1433 
+   environment:
+   - ACCEPT_EULA=Y
+   - MSSQL_SA_PASSWORD=password@123
+   networks:
+   - demoApi
+  magicvilla_api:
+    container_name: demo_villa_app
+    image: ${DOCKER_REGISTRY-}magicvillaapi
+    build:
+      context: .
+      dockerfile: MagicVilla_API/Dockerfile
+    ports:
+     - 8001:80
+    depends_on:
+    - demoappdb
+    environment:
+    - DB_HOST=demoappdb
+    - DB_NAME=DemoVillaApi
+    - DB_SA_PASSWORD=password@123
+    networks:
+    - demoApi

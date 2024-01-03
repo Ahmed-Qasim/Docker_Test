@@ -3,7 +3,7 @@
 FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS base
 WORKDIR /app
 RUN mkdir certs
-RUN chmod 755 /app/certs
+RUN chmod 777 /app/certs
 RUN apt-get update && apt-get install -y openssl
 RUN openssl req -x509 -newkey rsa:4096 -keyout /app/certs/key.pem -out /app/certs/cert.pem -days 365 -nodes -subj "/C=US/ST=CA/L=San Francisco/O=MyCompany/CN=localhost"
 # Configure Kestrel to use the certificates

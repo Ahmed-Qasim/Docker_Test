@@ -14,7 +14,7 @@ services:
    - demoApi
   magicvilla_api:
     container_name: demo_villa_app
-    image: ${DOCKER_REGISTRY-}magicvillaapi
+    #image: ${DOCKER_REGISTRY-}magicvillaapi
     build:
       context: .
       dockerfile: MagicVilla_API/Dockerfile

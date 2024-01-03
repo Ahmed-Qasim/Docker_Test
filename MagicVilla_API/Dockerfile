@@ -1,9 +1,15 @@
 #See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
 FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS base
+RUN apt-get update && apt-get install -y openssl
+RUN openssl req -x509 -newkey rsa:4096 -keyout /app/certs/key.pem -out /app/certs/cert.pem -days 365 -nodes
+# Configure Kestrel to use the certificates
+ENV ASPNETCORE_Kestrel__Certificates__Default__Path=/app/certs
+ENV ASPNETCORE_Kestrel__Certificates__Default__KeyPath=/app/certs/key.pem
+ENV ASPNETCORE_Kestrel__Certificates__Default__CertificatePath=/app/certs/cert.pem
 WORKDIR /app
 EXPOSE 80
-#EXPOSE 443
+EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 ARG BUILD_CONFIGURATION=Release

@@ -5,11 +5,11 @@
       "commandVersion": "1.0",
       "composeLaunchAction": "LaunchBrowser",
       "composeLaunchServiceName": "magicvilla_api",
-      "composeLaunchUrl": "{Scheme}://192.168.234.128:8002/swagger",
+      "composeLaunchUrl": "{Scheme}://localhost:{ServicePort}/swagger",
       "serviceActions": {
         "magicvilla_api": "StartDebugging",
         "demoappdb": "StartWithoutDebugging"
       }
     }
   }
-}
+}z

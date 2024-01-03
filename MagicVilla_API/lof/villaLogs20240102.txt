@@ -1,0 +1,59 @@
+2024-01-02 19:53:48.309 +00:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-01-02 19:53:48.413 +00:00 [DBG] Hosting starting
+2024-01-02 19:53:48.688 +00:00 [DBG] Using development certificate: CN=localhost (Thumbprint: B8070EA9DBE5A803C94C69B7DBAAED27D1B2B89C)
+2024-01-02 19:53:48.820 +00:00 [INF] Now listening on: https://[::]:443
+2024-01-02 19:53:48.820 +00:00 [INF] Now listening on: http://[::]:80
+2024-01-02 19:53:48.820 +00:00 [DBG] Loaded hosting startup assembly MagicVilla_API
+2024-01-02 19:53:48.821 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-02 19:53:48.822 +00:00 [INF] Hosting environment: Development
+2024-01-02 19:53:48.822 +00:00 [INF] Content root path: /app
+2024-01-02 19:53:48.822 +00:00 [DBG] Hosting started
+2024-01-02 19:58:43.346 +00:00 [DBG] Connection id "0HN0BPKSH486F" accepted.
+2024-01-02 19:58:43.349 +00:00 [DBG] Connection id "0HN0BPKSH486G" accepted.
+2024-01-02 19:58:43.349 +00:00 [DBG] Connection id "0HN0BPKSH486F" started.
+2024-01-02 19:58:43.349 +00:00 [DBG] Connection id "0HN0BPKSH486G" started.
+2024-01-02 19:58:43.406 +00:00 [DBG] Connection id "0HN0BPKSH486G" received FIN.
+2024-01-02 19:58:43.425 +00:00 [DBG] Connection 0HN0BPKSH486G established using the following protocol: "Tls13"
+2024-01-02 19:58:43.425 +00:00 [DBG] Connection 0HN0BPKSH486F established using the following protocol: "Tls13"
+2024-01-02 19:58:43.465 +00:00 [DBG] Connection id "0HN0BPKSH486G" is closed. The last processed stream ID was 0.
+2024-01-02 19:58:43.466 +00:00 [DBG] Connection id "0HN0BPKSH486G" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-01-02 19:58:43.478 +00:00 [DBG] The connection queue processing loop for 0HN0BPKSH486G completed.
+2024-01-02 19:58:43.483 +00:00 [DBG] Connection id "0HN0BPKSH486G" stopped.
+2024-01-02 19:58:43.520 +00:00 [INF] Request starting HTTP/2 GET https://localhost:52605/swagger - -
+2024-01-02 19:58:43.523 +00:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-01-02 19:58:43.555 +00:00 [DBG] No candidates found for the request path '/swagger'
+2024-01-02 19:58:43.556 +00:00 [DBG] Request did not match any endpoints
+2024-01-02 19:58:43.584 +00:00 [INF] Request finished HTTP/2 GET https://localhost:52605/swagger - - - 301 0 - 70.3837ms
+2024-01-02 19:58:43.643 +00:00 [INF] Request starting HTTP/2 GET https://localhost:52605/swagger/index.html - -
+2024-01-02 19:58:43.644 +00:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-01-02 19:58:43.644 +00:00 [DBG] Request did not match any endpoints
+2024-01-02 19:58:43.754 +00:00 [INF] Request finished HTTP/2 GET https://localhost:52605/swagger/index.html - - - 200 - text/html;charset=utf-8 110.1754ms
+2024-01-02 19:58:43.758 +00:00 [INF] Request starting HTTP/2 GET https://localhost:52605/swagger/swagger-ui.css - -
+2024-01-02 19:58:43.759 +00:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2024-01-02 19:58:43.759 +00:00 [INF] Request starting HTTP/2 GET https://localhost:52605/swagger/swagger-ui-standalone-preset.js - -
+2024-01-02 19:58:43.759 +00:00 [INF] Request starting HTTP/2 GET https://localhost:52605/swagger/swagger-ui-bundle.js - -
+2024-01-02 19:58:43.759 +00:00 [DBG] Request did not match any endpoints
+2024-01-02 19:58:43.759 +00:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2024-01-02 19:58:43.760 +00:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2024-01-02 19:58:43.760 +00:00 [DBG] Request did not match any endpoints
+2024-01-02 19:58:43.760 +00:00 [DBG] Request did not match any endpoints
+2024-01-02 19:58:43.843 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-01-02 19:58:43.844 +00:00 [INF] Request finished HTTP/2 GET https://localhost:52605/swagger/swagger-ui.css - - - 200 144929 text/css 86.1409ms
+2024-01-02 19:58:43.861 +00:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-01-02 19:58:43.862 +00:00 [INF] Request finished HTTP/2 GET https://localhost:52605/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 103.0117ms
+2024-01-02 19:58:43.933 +00:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-01-02 19:58:43.933 +00:00 [INF] Request finished HTTP/2 GET https://localhost:52605/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 174.3690ms
+2024-01-02 19:58:44.056 +00:00 [INF] Request starting HTTP/2 GET https://localhost:52605/swagger/v1/swagger.json - -
+2024-01-02 19:58:44.057 +00:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-01-02 19:58:44.057 +00:00 [DBG] Request did not match any endpoints
+2024-01-02 19:58:44.103 +00:00 [INF] Request starting HTTP/2 GET https://localhost:52605/swagger/favicon-32x32.png - -
+2024-01-02 19:58:44.103 +00:00 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2024-01-02 19:58:44.103 +00:00 [DBG] Request did not match any endpoints
+2024-01-02 19:58:44.104 +00:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-01-02 19:58:44.104 +00:00 [INF] Request finished HTTP/2 GET https://localhost:52605/swagger/favicon-32x32.png - - - 200 628 image/png 1.4515ms
+2024-01-02 19:58:44.180 +00:00 [INF] Request finished HTTP/2 GET https://localhost:52605/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 124.2734ms
+2024-01-02 19:58:46.774 +00:00 [DBG] Connection id "0HN0BPKSH486F" received FIN.
+2024-01-02 19:58:46.775 +00:00 [DBG] Connection id "0HN0BPKSH486F" is closed. The last processed stream ID was 13.
+2024-01-02 19:58:46.775 +00:00 [DBG] The connection queue processing loop for 0HN0BPKSH486F completed.
+2024-01-02 19:58:46.775 +00:00 [DBG] Connection id "0HN0BPKSH486F" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-01-02 19:58:46.777 +00:00 [DBG] Connection id "0HN0BPKSH486F" stopped.

@@ -26,5 +26,7 @@ services:
     - DB_HOST=demoappdb
     - DB_NAME=DemoVillaApi
     - DB_SA_PASSWORD=password@123
+    - ASPNETCORE_ENVIRONMENT=Development
+    - ASPNETCORE_URLS=https://+:443;http://+:80
     networks:
     - demoApi
